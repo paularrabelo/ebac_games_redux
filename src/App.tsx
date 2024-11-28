@@ -17,8 +17,6 @@ export type Game = {
 }
 
 function App() {
-  const [games, setGames] = useState<Game[]>([])
-
   return (
     <Provider store={store}>
       <GlobalStyle />
